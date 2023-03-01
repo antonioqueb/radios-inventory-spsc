@@ -22,3 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(servicios_router.urls)),
 ]
+
+
+# Path: servicios\api\router.py
