@@ -44,7 +44,7 @@ class CatTecnicosSerializer(ModelSerializer):
 
 class CatusuariosSerializer(ModelSerializer):
     class Meta:
-        model = Catusuarios
+        model = CatUsuarios
         fields = '__all__'
 
 class ControlfolSerializer(ModelSerializer):
@@ -97,7 +97,7 @@ class MovpartesSerializer(ModelSerializer):
         model = Movpartes
         fields = '__all__'
 
-class MservSerializer(ModelSerializer)
+class MservSerializer(ModelSerializer):
     class Meta:
         model = Mserv
         fields = '__all__'
