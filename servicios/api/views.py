@@ -5,7 +5,7 @@ from servicios.api.serializers import *
 
 class AreasViewSet(ModelViewSet):
     queryset = Areas.objects.all()
-    serializer_class = AreaSerializer
+    serializer_class = AreasSerializer
 
 class AuthGroupViewSet(ModelViewSet):
     queryset = AuthGroup.objects.all()
@@ -41,8 +41,8 @@ class CatUsuariosViewSet(ModelViewSet):
     serializer_class = CatUsuariosSerializer
 
 class ControlfolioViewSet(ModelViewSet):
-    queryset = Controlfolio.objects.all()
-    serializer_class = ControlfolioSerializer
+    queryset = Controlfol.objects.all()
+    serializer_class = ControlfolSerializer
 
 class DependenciasViewSet(ModelViewSet):
     queryset = Dependencias.objects.all()

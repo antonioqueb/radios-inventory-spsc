@@ -43,7 +43,7 @@ class CatTecnicosSerializer(ModelSerializer):
         model = CatTecnicos
         fields = '__all__'
 
-class CatusuariosSerializer(ModelSerializer):
+class CatUsuariosSerializer(ModelSerializer):
     class Meta:
         model = CatUsuarios
         fields = '__all__'

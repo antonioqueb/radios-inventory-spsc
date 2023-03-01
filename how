@@ -1,0 +1,62 @@
+[33mcommit b651e1f5b72d416315b687916ac5862c1acf18b0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Wed Mar 1 10:34:07 2023 -0600
+
+    Add router and views
+
+[33mcommit a63fca61b33af1e8e0882644d314bfa8cabe9589[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Wed Mar 1 09:15:54 2023 -0600
+
+    add serializers
+
+[33mcommit c977f48e1904e9f61e42c575f70c40d1b49628f3[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Tue Feb 28 15:51:01 2023 -0600
+
+    create folder API
+
+[33mcommit 76043d478b15857a6d5d7a4285273bfd628b0efb[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Tue Feb 28 15:21:44 2023 -0600
+
+    Configure models
+
+[33mcommit 3a1671b75bb6cfbd5e75c1700a01aa3d1e0f3387[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Tue Feb 28 15:00:36 2023 -0600
+
+    add env
+
+[33mcommit 544716f8c74e3bd01d1bfdd18c067bb7a074efd0[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Tue Feb 28 14:42:23 2023 -0600
+
+    add models
+
+[33mcommit 004801417aeb5c46d1fd7758ac8ec1666ea1813b[m
+Merge: 56b9546 3b4f263
+Author: Antonio Queb <92013606+antonioqueb@users.noreply.github.com>
+Date:   Mon Feb 27 14:02:34 2023 -0600
+
+    Merge pull request #1 from antonioqueb/dev
+    
+    commite prueba
+
+[33mcommit 3b4f2631b9627faa6dd6aa2afa9cf2c41f836fc6[m
+Author: juliocuh1986 <juliocuh1986@gmail.com>
+Date:   Mon Feb 27 13:55:44 2023 -0600
+
+    commite prueba
+
+[33mcommit 56b9546247be3710d2e90744c97d7e09c792dbe7[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Mon Feb 27 13:21:56 2023 -0600
+
+    config .bat
+
+[33mcommit 73f94b4eed08125b7709a233356f1daa4adacbce[m
+Author: querubcastillo <cardstillo@gmail.com>
+Date:   Mon Feb 27 12:46:18 2023 -0600
+
+    First Commit
