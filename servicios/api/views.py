@@ -40,7 +40,7 @@ class CatUsuariosViewSet(ModelViewSet):
     queryset = CatUsuarios.objects.all()
     serializer_class = CatUsuariosSerializer
 
-class ControlfolioViewSet(ModelViewSet):
+class ControlfolViewSet(ModelViewSet):
     queryset = Controlfol.objects.all()
     serializer_class = ControlfolSerializer
 
