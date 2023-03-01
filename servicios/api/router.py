@@ -1,0 +1,30 @@
+from rest_framework.routers import DefaultRouter
+from servicios.api.views import *
+
+
+router = DefaultRouter()
+
+router.register(r'areas', AreasViewSet, base_name='areas')
+router.register(r'authgroup', AuthGroupViewSet, base_name='authgroup')
+router.register(r'authgrouppermissions', AuthGroupPermissionsViewSet, base_name='authgrouppermissions')
+router.register(r'authpermission', AuthPermissionViewSet, base_name='authpermission')
+router.register(r'authuser', AuthUserViewSet, base_name='authuser')
+router.register(r'authusergroups', AuthUserGroupsViewSet, base_name='authusergroups')
+router.register(r'authuseruserpermissions', AuthUserUserPermissionsViewSet, base_name='authuseruserpermissions')
+router.register(r'cattecnicos', CatTecnicosViewSet, base_name='cattecnicos')
+router.register(r'catusuarios', CatUsuariosViewSet, base_name='catusuarios')
+router.register(r'controlfolio', ControlfolioViewSet, base_name='controlfolio')
+router.register(r'dependencias', DependenciasViewSet, base_name='dependencias')
+router.register(r'estaciona', EstacionaViewSet, base_name='estaciona')
+router.register(r'estasube', EstasubeViewSet, base_name='estasube')
+router.register(r'movfallas', MovfallasViewSet, base_name='movfallas')
+router.register(r'movpartes', MovpartesViewSet, base_name='movpartes')
+router.register(r'mserv', MservViewSet, base_name='mserv')
+router.register(r'municipios', MunicipiosViewSet, base_name='municipios')
+router.register(r'pdservicios', PdserviciosViewSet, base_name='pdservicios')
+router.register(r'permisos', PermisosViewSet, base_name='permisos')
+router.register(r'servicios', ServiciosViewSet, base_name='servicios')
+router.register(r'serviciosrad', ServiciosradViewSet, base_name='serviciosrad')
+router.register(r'tfallas', TfallasViewSet, base_name='tfallas')
+router.register(r'tipos', TiposViewSet, base_name='tipos')
+router.register(r'tpartes', TpartesViewSet, base_name='tpartes')
